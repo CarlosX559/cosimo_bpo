@@ -320,7 +320,7 @@ nav ul li a {
 }
 
 .card_beneficios_int img {
-    filter: drop-shadow(0px 4px 20px  rgba(52, 174, 243, 1));
+    filter: drop-shadow(0px 4px 20px rgba(52, 174, 243, 1));
 }
 
 .info_beneficios p {
@@ -441,7 +441,7 @@ nav ul li a {
     .area_servicos {
         max-width: 1680px;
     }
- 
+
 }
 
 .area_texts_servicos {
@@ -537,17 +537,191 @@ nav ul li a {
     line-height: 140%;
 }
 
+/*Container quem somos*/
+
+.container_quem_somos {
+    display: flex;
+    justify-content: center;
+    padding: 60px 0px 60px 0px;
+    width: 100%;
+    background: #04071A;
+    overflow: hidden !important;
+}
+
+.container_quem_somos_int {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1360px;
+}
+
+.area_quem_somos {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    padding: 0px 20px;
+}
+
+.bg_quem_somos {
+    position: absolute;
+    right: -60px;
+    max-width: 1100px;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+}
+
+.area_texts_quem_somos {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+    max-width: 550px;
+}
+
+.area_titles_quem_somos {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.info_experiencia p {
+    color: #196BC1;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 8.12px;
+    text-transform: uppercase;
+}
+
+.title_quem_somos h2 {
+    color: #FFF;
+    font-family: Biryani;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 100%;
+}
+
+.sub_title_quem_somos p {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.sub_title_quem_somos p b {
+    font-weight: 800;
+}
+
+/*Container expertise*/
+
+.container_expertise {
+    display: flex;
+    justify-content: center;
+    padding: 60px 0px 60px 0px;
+    width: 100%;
+    position: relative;
+}
+
+.bg_cosimo_expertise_1 {
+    position: absolute;
+    top: -20%;
+    left: 0px;
+    max-width: max-content;
+    width: 100%;
+    z-index: -1;
+}
+
+.bg_cosimo_expertise_2 {
+    position: absolute;
+    bottom: 20px;
+    right: 0px;
+    max-width: max-content;
+    width: 100%;
+    z-index: -1;
+}
 
 
+.container_expertise_int {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1280px;
+}
+
+.area_expertise {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+    width: 100%;
+}
 
 
+.title_expertise_principal h2 {
+    color: #0F1825;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 100%;
+}
 
+.area_cards_expertise_total {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
 
+.area_cards_expertise {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+}
 
+.card_expertise {
+    border-radius: 12px;
+    background: #EAF0FA;
+    max-width: 300px;
+    width: 100%;
+    height: 390px;
+}
 
+.card_expertise_int {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 260px;
+    width: 100%;
+    padding: 30px 10px 30px 20px;
+}
 
+.card_expertise_int img {
+    max-width: max-content;
+    width: 100%;
+    height: auto;
+}
 
+.title_expertise h2 {
+    color: #0F1825;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 100%;
+}
 
+.sub_title_expertise p {
+    color: #0F1622;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: normal;
+}
 
 /*Footer*/
 footer {
