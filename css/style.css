@@ -124,6 +124,8 @@ header {
     display: flex;
 }
 
+
+
 nav {
     width: 100%;
     max-width: max-content;
@@ -158,7 +160,7 @@ nav ul li a {
     justify-content: center;
     width: 100%;
     background: #03307A;
-    padding: 105px 0px 0px 0px;
+    padding: 154px 0px 0px 0px;
     overflow: hidden;
     position: relative;
     z-index: 1;
@@ -245,7 +247,7 @@ nav ul li a {
 .bg_home_icon {
     position: absolute;
     right: 0px;
-    top: 0px;
+    top: 100px;
     z-index: -1;
     max-width: max-content;
     height: 558px;
@@ -973,7 +975,7 @@ footer {
         justify-content: space-between;
         align-items: center;
         max-width: 1280px;
-        padding: 20px 20px 0px 20px;
+        padding: 20px 20px 20px 20px;
     }
 
     @keyframes move {
@@ -1055,6 +1057,10 @@ footer {
 
     .area_menu nav {
         width: 100%;
+    }
+
+    .menu_mobile a {
+        display: flex;
     }
 
     .area_menu nav ul {
@@ -1159,7 +1165,6 @@ footer {
     .container_operacao_int {
         align-items: center;
         gap: 30px;
-        padding: 0px 20px;
     }
 
     .area_operacao {
@@ -1288,7 +1293,7 @@ footer {
 @media(max-width: 480px) {
 
     .container_home {
-        padding: 140px 0px 0px 0px;
+        padding: 180px 0px 0px 0px;
     }
 
     /*Containe cosimo*/
@@ -1346,7 +1351,7 @@ footer {
     }
 
     .cards_oferecemos {
-        height: auto;
+        height: max-content !important;
         max-width: 300px;
     }
 
@@ -1360,6 +1365,10 @@ footer {
 
     .sub_title_expertise p {
         font-size: 16px;
+    }
+
+    .title_operacao_principal h2 {
+        text-align: center;
     }
 
     .area_whatsapp {
@@ -1389,5 +1398,15 @@ footer {
 
     .area_footer {
         align-items: flex-start;
+    }
+}
+
+@media(max-width: 420px) {
+    .card_operacao {
+        max-width: 340px;
+    }
+    .area_beneficios_total {
+        max-width: 310px;
+        width: 100%;
     }
 }
